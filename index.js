@@ -15,3 +15,9 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name);
   return kittens;
 }
+
+function destructivelyRemoveLastKitten(){
+  Arrays();
+  kittens.shift();
+  return kittens;
+}
