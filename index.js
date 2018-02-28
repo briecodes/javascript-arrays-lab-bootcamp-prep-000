@@ -42,12 +42,14 @@ function prependKitten(name){
 
 function removeLastKitten(){
   Arrays();
-  var newKittieLineup = kittens.pop();
+  var newKittieLineup = kittens;
+  newKittieLineup.pop();
   return newKittieLineup;
 }
 
 function removeFirstKitten(){
   Arrays();
-  var newKittieLineup = kittens.shift();
+  var newKittieLineup = kittens;
+  newKittieLineup.shift();
   return newKittieLineup;
 }
