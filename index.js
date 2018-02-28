@@ -41,6 +41,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
+  Arrays();
   var newKittieLineup = kittens.pop();
   return newKittieLineup;
 }
