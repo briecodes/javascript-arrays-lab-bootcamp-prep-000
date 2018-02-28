@@ -45,3 +45,9 @@ function removeLastKitten(){
   var newKittieLineup = kittens.pop();
   return newKittieLineup;
 }
+
+function removeFirstKitten(){
+  Arrays();
+  var newKittieLineup = kittens.shift();
+  return newKittieLineup;
+}
