@@ -49,9 +49,7 @@ function removeLastKitten(){
 
 function removeFirstKitten(){
   Arrays();
-  console.log(`original lineup: ${kittens}`);
   var newKittieLineup = kittens;
   newKittieLineup.shift();
-  console.log(`new lineup: ${newKittieLineup}`);
   return newKittieLineup;
 }
