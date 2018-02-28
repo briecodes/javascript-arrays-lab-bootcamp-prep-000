@@ -39,3 +39,8 @@ function prependKitten(name){
   var newKittieLineup = [name, ...kittens];
   return newKittieLineup;
 }
+
+function removeLastKitten(){
+  var newKittieLineup = kittens.pop();
+  return newKittieLineup;
+}
