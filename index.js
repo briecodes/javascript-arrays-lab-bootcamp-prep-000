@@ -33,3 +33,9 @@ function appendKitten(name){
   var newKittieLineup = [...kittens, name];
   return newKittieLineup;
 }
+
+function prependKitten(name){
+  Arrays();
+  var newKittieLineup = [name, ...kittens];
+  return newKittieLineup;
+}
