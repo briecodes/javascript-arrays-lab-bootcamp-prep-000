@@ -43,17 +43,13 @@ function prependKitten(name){
 function removeLastKitten(){
   Arrays();
   var newKittieLineup = kittens;
-  console.log(`remove last original lineup: ${newKittieLineup}`);
   newKittieLineup.pop();
-  console.log(`remove last new lineup: ${newKittieLineup}`);
   return newKittieLineup;
 }
 
 function removeFirstKitten(){
   Arrays();
   var newKittieLineup = kittens;
-  console.log(`remove first original lineup: ${newKittieLineup}`);
   newKittieLineup.shift();
-  console.log(`remove first original lineup: ${newKittieLineup}`);
   return newKittieLineup;
 }
