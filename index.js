@@ -5,6 +5,13 @@ function Arrays(){
 }
 
 function destructivelyAppendKitten(name){
+  Arrays();
   kittens.push(name);
   return kittens;
+}
+
+function destructivelyPrependKitten(name){
+  Arrays();
+  kittens.unshift(name);
+  return kittens();
 }
