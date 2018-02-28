@@ -18,6 +18,6 @@ function destructivelyPrependKitten(name){
 
 function destructivelyRemoveLastKitten(){
   Arrays();
-  kittens.shift(-1);
+  kittens.shift(kittens.length-1);
   return kittens;
 }
